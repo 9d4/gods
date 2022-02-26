@@ -22,8 +22,8 @@ func Array() {
 	// SUM NUMBERS
 	myNumbers := [2]int{9, 184}
 	fmt.Println("myNumbers       :", myNumbers)
-	fmt.Println("myNumbers[0]	 :", &myNumbers[0])
-	fmt.Println("myNumbers[1]	 :", &myNumbers[1])
+	fmt.Println("myNumbers[0]    :", &myNumbers[0])
+	fmt.Println("myNumbers[1]    :", &myNumbers[1])
 	fmt.Println("sum of myNumbers:", Sum(&myNumbers))
 
 	// ANOTHER SUM NUMBERS
@@ -32,8 +32,8 @@ func Array() {
 	myNumbersSec[1] = 10
 
 	fmt.Println("myNumbers       :", myNumbersSec)
-	fmt.Println("myNumbers[0]	 :", &myNumbersSec[0])
-	fmt.Println("myNumbers[1]	 :", &myNumbersSec[1])
+	fmt.Println("myNumbers[0]    :", &myNumbersSec[0])
+	fmt.Println("myNumbers[1]    :", &myNumbersSec[1])
 	fmt.Println("sum of myNumbers:", Sum(myNumbersSec))
 
 }
