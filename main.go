@@ -5,6 +5,7 @@ import (
 
 	"github.com/traperwaze/gods/array"
 	"github.com/traperwaze/gods/maxheap"
+	"github.com/traperwaze/gods/minheap"
 )
 
 func main() {
@@ -12,4 +13,6 @@ func main() {
 	array.Array()
 	fmt.Println("======================MAX HEAP=======================")
 	maxheap.HeapMax()
+	fmt.Println("======================MIN HEAP=======================")
+	minheap.HeapMin()
 }
