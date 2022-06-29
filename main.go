@@ -6,6 +6,7 @@ import (
 	"github.com/9d4/gods/array"
 	"github.com/9d4/gods/maxheap"
 	"github.com/9d4/gods/minheap"
+	"github.com/9d4/gods/linkedlist"
 )
 
 func main() {
@@ -15,4 +16,6 @@ func main() {
 	maxheap.HeapMax()
 	fmt.Println("======================MIN HEAP=======================")
 	minheap.HeapMin()
+	fmt.Println("=====================LINKED LIST=====================")
+	linkedlist.LinkedList()
 }
